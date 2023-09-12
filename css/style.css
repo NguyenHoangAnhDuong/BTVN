@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+.fontHeader{
+    margin: 0px 5%;
+    width: 100%;
+    
+
+}
+.headerTop{
+    display: flex;
+    position: relative;
+    width: 100%;
+
+}
+.logo{
+    align-items: center;
+    width: 140px;
+
+}
+.nameCf{
+    
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 20px;
+    margin: 14px 0px;
+    font-weight: bold;
+   
+
+}
+.menu{
+    align-items: center;
+    display: flex;
+    list-style: none;
+   
+    
+
+}
+.item{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+
+}
+.item:hover{
+    background-color: rgb(152, 68, 68);
+    color: white;
+}
+.login{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+
+}
+.button{
+    margin: 15px;
+    font-size: 25px;
+    color: brown;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.button:hover{
+    color: black;
+    background-color: brown;
+}
+.button1 {
+    margin: 30px;
+    font-size: 25px;
+    color: brown;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+}
+.button1:hover{
+    color: black;
+}
+.content{
+    position: relative;
+    width: 40%;
+    padding: 33px;
+    padding-right: 200px;
+    color: brown;
+
+}
+.content1{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.content2{
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0px 200px 0px 0px;
+
+
+}
+.content3{
+    font-weight: bold;
+
+}
+.sp{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.drink{
+   position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.introCF{
+    position: absolute;
+    top: 250px;
+    align-items: center;
+    text-align: center;
+
+}
+.Cafe{
+
+}
+.intro{
+
+}
+.chuyen{
+
+}
